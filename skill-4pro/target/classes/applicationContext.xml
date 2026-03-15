@@ -1,0 +1,24 @@
+<beans 
+xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="
+ http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Constructor Injection -->
+    <bean id="studentConstructor" class="com.example.student.Student">
+        <constructor-arg value="101"/>
+        <constructor-arg value="Akki"/>
+        <constructor-arg value="Computer Science"/>
+        <constructor-arg value="3rd Year"/>
+    </bean>
+
+    <!-- Setter Injection -->
+    <bean id="studentSetter" class="com.example.student.Student">
+        <property name="studentId" value="102"/>
+        <property name="name" value="Rahul"/>
+        <property name="course" value="IT"/>
+        <property name="year" value="2nd Year"/>
+    </bean>
+
+</beans>
