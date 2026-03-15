@@ -1,0 +1,8 @@
+SKILL-1: Git Version Control
+
+This lab demonstrates:
+1. Git repository initialization
+2. Adding files to staging
+3. Committing files
+4. Creating branches
+5. Merging branches
